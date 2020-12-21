@@ -1,0 +1,21 @@
+{
+  "name": "nimubot-chatbot",
+  "version": "1.0.0",
+  "description": "Bot yang berfungsi untuk membuat list anime favorite",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "anime"
+  ],
+  "author": "Muhammad Fadzrin Madu",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^7.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
